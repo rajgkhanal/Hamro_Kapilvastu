@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>संक्षिप्त परिचय</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+	
+	<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+
+	<section id="ens-aji-a" data-role="page" data-theme="b">
+	
+			<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>हाम्रो कपिलवस्तु</p>
+    </header>								
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>तालहरु :</p>
+				</div>
+
+					
+				<div class="ui-body ui-body-a">
+					<p class="texto" style=text-align:justify;>
+
+					<!--<h3><u>मुख्य :</h3></u><br>-->
+			कपिलवस्तु जिल्ला नेपालकै एक प्राकृितक स्राेत र साधनले भिरपूर्ण भएकाे कारण अत्यान्तै सुन्दर रहेकाे छ । 
+			
+			यस जिल्लामा जगदिशपुर ताल, सगरहवा ताल, विजुवा, कोपवा, बुड्ढी, हरिहरपुर ताल, कर्मा ताल, रामलक्ष्मण ताल रनगार्इ, पुरैनी ताल आदि रहेका छन् ।<br><br>
+
+							</p>
+
+
+		</div><br>
+		</div>
+				<div class="ui-body ui-body-a">
+					<p class="texto" style=text-align:justify;><strong>जगदीशपुर (जखिरा) ताल :</strong><br>
+					
+					करीव १५७ हेक्टर क्षेत्रफलमा फैलिएको यो तालमा विभिन्न प्रजातिका माछाहरु पाउनुको साथै विभिन्न प्रजातिका चराहरुको बासिस्थान रहेको छ । चालिस बर्ष अघि सम्म यहाँ मानिसको बसोबास थियो । अहिले पानी नै पानी भएको यो ठाउँमा जगिरा नामको सानो ताल थियो । त्यही जगिरा तालमा मानिसहरु माछा मार्थे, पौडि खेल्थे । कपिलवस्तुको निग्लिहवामा रहेको यो मानव निर्मित तालको १५७ हेक्टर पानीले भरिएको छ । यो पानी बाणगंगा नदीबाट सिंचाइका लागि ल्याइएको हो । लक्षणघाटमा बाँध बाँधेर ल्याएको पानी यहाँको बस्ती उठाएर जमाइयो । जगिरा ताल भएको ठाउँमा सिंचाइका लागि ल्याएको पानी जमाएपछि जगदिशपुर ताल भन्न थालियो । यो नेपालकै ठूलो मानव निर्मित ताल बन्यो ।
+					<p style=text-align:center;> <img style="max-width: 100%;" src="../images/Jagadishpur.jpg"/><br></p><hr>
+					<p style=text-align:center;> <img style="max-width: 100%;" src="../images/jagdishpur.jpg"/><br></p><hr>
+					<p style=text-align:center;> <img style="max-width: 100%;" src="../images/jagdishpur3.jpg"/><br></p><hr>
+					<p style=text-align:center;> <img style="max-width: 100%;" src="../images/jagdispur2.jpg"/><br></p><hr>
+					<p class="texto" style=text-align:justify;><p>रामलक्ष्मण ताल :
+					<p style=text-align:center;> <img style="max-width: 100%;" src="../images/ramlaxmantal.jpg"/><br></p>
+		
+		</p>
+		</div>
+		
+
+
+		<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">मुख्य मेनु</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">पछाडी</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section><!-- /page -->
+	
+
+</body>
+</html>
