@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>संक्षिप्त परिचय</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile-1.1.2.css" media="all">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.mobile.structure-1.1.2.css" media="all">
+	<!-- <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme-1.2.0.min.css" media="all"> -->
+	<link rel="stylesheet" href="../css/receta.css" media="all">
+	<script type="text/javascript" src="../js/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="../js/jquery.mobile-1.2.0.js"></script>
+	
+	<script src="../cordova.js"></script>
+		<script type="text/javascript" charset="utf-8">
+
+    // Call onDeviceReady when Cordova is loaded.
+    //
+    // At this point, the document has loaded but cordova-2.0.0.js has not.
+    // When Cordova is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // Cordova is loaded and it is now safe to call Cordova methods
+    //
+    function onDeviceReady() {
+        // Register the event listener
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    // Handle the back button
+    //
+    function onBackKeyDown() {
+		navigator.app.exitApp();
+    }
+
+    </script>
+	</head>
+	<body onload="onLoad()">
+
+	<section id="ens-aji-a" data-role="page" data-theme="b">
+	
+			<header data-role="header" data-position="fixed">
+        <p style=text-align:center;>हाम्रो कपिलवस्तु</p>
+    </header>								
+		<div data-role="main" class="ui-content">
+		<div class="ui-corner-all custom-corners">
+		
+		<div class="ui-bar ui-bar-b" style="text-align:center;">
+					<p>बैंक तथा एटिएम सेवा</p>
+
+
+				</div>
+				<article data-role="content">
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="खाेज्नुहाेस">
+				<li >
+		
+					<br><p class="texto" style=text-align:center;>
+					<strong>एनएमवि बैंक</strong><br>
+					जितपुर शाखा, चारनम्वर क.ब.<br>
+					फोन नं. ०७६–५५०१५६, ५५०१५७<br><br>
+					चनरौटा शाखा, शिवराज न.पा.–६<br>
+					फोन नं. ०७६–५४०३९५<br><br>
+					गोरुसिङ्गेशाखा, जयनगर क.ब.<br>
+					फोन नं. ०७६–५४५११३<br>
+					<br><br><strong>एटिएम सेवा:</strong><br>
+					जितपुर एटिएम, जितपुर चाेक, कपिलवस्तु<br>
+					चनरौटा एटिएम, शिवराज न.पा.–६, चनरौटा
+							</p>
+					 
+			</li>	<br>	
+		<li>
+					<br><p class="texto" style=text-align:center;>
+					<strong>लक्ष्मी बैंक लिमिटेड</strong><br>
+					तौलिहवा  शाखा, क.ब.<br>
+					फोन नं. ०७६–५६११४६<br><br>
+					</p>
+		</li>	
+		<br>
+		<li>
+					<br><p class="texto" style=text-align:center;>
+					<strong>पश्चिमाञ्चल डेभलपमेन्ट बैंक लिमिटेड</strong><br>
+					जितपुर शाखा, चारनम्वर क.ब.<br>
+					फोन नं. ०७६–५५०२९९<br>
+					</p>
+		</li>
+		<br>	
+		<li>
+					<br><p class="texto" style=text-align:center;>
+					<strong>सिद्धार्थ  डेभलपमेन्ट बैंक लिमिटेड</strong><br>
+					बनगाई शाखा, क.ब.<br>
+					फोन नं. ०७६–४११०११<br><br>
+					चनरौटा शाखा, शिवराज न.पा.–६<br>
+					फोन नं. ०७६–५४०४३५<br><br>
+					पिपरा शाखा, पिपरा क.ब.<br>
+					फोन नं. ०७६–५५००४४<br>
+		</p>
+		</li><br>	
+		<li>
+		
+					<br><p class="texto" style=text-align:center;>
+					<strong>ग्लोवल आईएमई बैंक लिमिटेड</strong><br>
+					जितपुर शाखा, चारनम्वर क.ब.<br>
+					फोन नं. ०७६–५५०३५२/५५०३५३<br><br>
+		</p>
+		
+</li></ul></article>
+
+		<!-- /content -->
+		<footer data-role="footer" data-tap-toggle="true" data-position="fixed" data-theme="b">
+			<div data-role="navbar">
+      <ul>
+        <li><a href="../spanish/menu-receta-s.html"" data-transition="none">मुख्य मेनु</a></li>
+        <li><a onclick="window.history.back()" data-transition="flip">पछाडी</a></li>
+      </ul>
+    </div>
+		</footer>
+	</section><!-- /page -->
+	
+
+</body>
+</html>
